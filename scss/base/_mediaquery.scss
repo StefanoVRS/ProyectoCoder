@@ -1,0 +1,35 @@
+// ! NO SE PORQUE NO ME FUNCIONAN LAS MEDIA QUARY
+
+// media quary
+@media screen and (max-width:900px){
+    // HERO
+    .hero{
+        p{
+            .hero p {
+                font-size: 2rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+    @media screen and (max-width:1200px){
+        // BLOG
+        .contenedor{
+            flex-direction: column;
+            .Titulo{
+                font-size: 1.5rem;
+            }
+            .contenedorContainer{
+                .contenedorTexto{
+                    font-size: 1rem;
+                }
+                .contenedorLista{
+                    font-size: 0.8rem;
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+}

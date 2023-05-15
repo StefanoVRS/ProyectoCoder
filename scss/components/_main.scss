@@ -1,0 +1,181 @@
+main {
+    .hero {
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url(../img/istockphoto-1250920176-1024x1024.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* Letra */
+        color: white;
+
+        div {
+            p {
+                background-color: rgba(0, 0, 0, 0.662);
+                font-size: 3rem;
+                width: 100%;
+            }
+
+            h2 {
+                margin-top: 1rem;
+                padding: 0 1rem 0 1rem;
+                font-size: 1, 5rem;
+
+                border-radius: 5px;
+                font-weight: 50;
+                text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
+            }
+        }
+    }
+
+    .background {
+        background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url(../img/2081189.jpg);
+        background-size: cover;
+        width: 100%;
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 15px 0 15px 0;
+
+            .card {
+                margin: 50px 0px 50px 0px;
+                border-radius: 20px 20px 15px 15px;
+                height: 650px;
+                transition: all 1s ease;
+
+                &:hover {
+                    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.416);
+                    cursor: pointer;
+                    transform: scale(1.02);
+                }
+
+                img {
+                    width: 400px;
+                    height: 500px;
+                    object-fit: cover;
+                    object-position: 20%;
+                }
+
+                h2 {
+                    text-align: center;
+                }
+
+                a {
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                    padding: 15px 20px;
+                    display: block;
+                    text-align: center;
+                    margin: 20px 50px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+//! PAGES--------------
+
+// BLOG
+
+.contenedor {
+    color: white;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url(../img/2081189.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    .Titulo {
+        padding: 10px 15px 10px 15px;
+        margin: 2rem;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.662);
+        border-radius: 5px;
+    }
+
+    .contenedorContainer {
+        .contenedorTexto {
+            background-color: rgba(0, 0, 0, 0.662);
+            padding-bottom: 15px;
+            font-size: 1.3rem;
+            margin: 50px;
+            padding: 10px 15px 10px 15px;
+        }
+
+        .contenedorLista {
+            background-color: rgba(0, 0, 0, 0.662);
+            padding: 3rem;
+            margin: 50px;
+
+            li {
+                text-decoration: none;
+                padding: 10px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+// USUARIO
+.usuarioFondo {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url(../img/2081189.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Letra */
+    color: white;
+    .usuario {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+        margin: 0 2rem 0 4rem;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.662);
+        .usuarioRegistrate {
+            padding: 30px 0 30px 0;
+        }
+        .usuarioTarget {
+            .usuarioTargetRespuesta {
+                div {
+                    align-items: center;
+                    padding: 15px 0 15px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                }
+                .usuarioTargetRespuestaBoton {
+                    padding-top: 20px;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+}
