@@ -4,6 +4,7 @@ footer{
     padding-top: 5rem;
     .footerGridContenedor{
         display: grid;
+        position: center;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         padding: 0 5rem 0 5rem;
