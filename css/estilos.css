@@ -72,6 +72,26 @@ main .background {
         border-radius: 5px;
         text-decoration: none; }
 
+.acercade {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.703), rgba(0, 0, 0, 0.703)), url(../img/2081189.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .acercade .section1 {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px; }
+    .acercade .section1 .section2 .section2name {
+      font-family: 'roboto', sans-serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .acercade .section1 .section2 .sectuib2p {
+      width: 60%; }
+    .acercade .section1 .section3 {
+      width: 40%; }
+
 .contenedor {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.333)), url(../img/2081189.jpg);
@@ -100,6 +120,26 @@ main .background {
       text-decoration: none;
       padding: 10px;
       display: inline-block; }
+
+.envios {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.703), rgba(0, 0, 0, 0.703)), url(../img/2081189.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .envios .section1 {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 100px; }
+    .envios .section1 .section2 .section2name {
+      font-family: 'roboto', sans-serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .envios .section1 .section2 .sectuib2p {
+      width: 60%; }
+    .envios .section1 .section3 {
+      width: 40%; }
 
 .usuarioFondo {
   text-align: center;
@@ -180,3 +220,8 @@ footer {
     .contenedor .contenedorContainer .contenedorLista {
       font-size: 0.8rem;
       padding: 1.5rem; } }
+
+@media screen and (max-width: 1200) {
+  .acercade .section1 .section2 {
+    display: flex;
+    flex-direction: column; } }
